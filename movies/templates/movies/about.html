@@ -3,5 +3,11 @@
 <html>
   {% block content %}
   <h1>Honey, I shrunk the kids - Abe's current favorite</h1>
+  {% load static %}
+  <img
+    style="width: 100"
+    src="{% static 'movies/js.jpeg'%}"
+    alt="About me picture"
+  />
   {% endblock content %}
 </html>
